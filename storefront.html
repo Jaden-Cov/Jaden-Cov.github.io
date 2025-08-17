@@ -1,83 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Storefront</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storefront</title>
+    <link rel="stylesheet" href="storefrontstyles.css">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>StudentID12345 - Jaden's Tech Store</h1>
-  </header>
+    <header>
+        <h1>Welcome to My Storefront</h1>
+        <p>Student ID: 6623</p>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+    <main>
+        <section class="product">
+            <h2>Featured Product</h2>
+            <p>This is where your featured product details will go.</p>
+        </section>
 
-  <!-- Main Content -->
-  <main>
-    <section>
-      <h2>Available Products</h2>
+        <section class="products">
+            <h2>More Products</h2>
+            <ul>
+                <li>Product 1 - $10</li>
+                <li>Product 2 - $15</li>
+                <li>Product 3 - $20</li>
+            </ul>
+        </section>
+    </main>
 
-      <!-- Product Table -->
-      <table>
-        <caption>Store Inventory</caption>
-        <colgroup>
-          <col style="background-color: #f9f9f9;">
-          <col>
-          <col style="background-color: #f9f9f9;">
-          <col>
-        </colgroup>
-
-        <thead>
-          <tr>
-            <th>Product Name</th>
-            <th>Price</th>
-            <th>Category</th>
-            <th>Availability</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>Laptop Pro 15</td>
-            <td>$1,200</td>
-            <td>Electronics</td>
-            <td>In Stock</td>
-          </tr>
-          <tr>
-            <td>Wireless Mouse</td>
-            <td>$25</td>
-            <td>Accessories</td>
-            <td>In Stock</td>
-          </tr>
-          <tr>
-            <td>4K Monitor</td>
-            <td>$400</td>
-            <td>Electronics</td>
-            <td>Out of Stock</td>
-          </tr>
-        </tbody>
-
-        <tfoot>
-          <tr>
-            <td colspan="4">*Prices and availability subject to change</td>
-          </tr>
-        </tfoot>
-      </table>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Jaden's Tech Store</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 My Storefront</p>
+    </footer>
 </body>
 </html>
